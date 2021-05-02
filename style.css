@@ -1,0 +1,104 @@
+body {
+  font-family: "Google Sans", "Noto Sans Myanmar UI", arial, sans-serif;
+  margin: 0;
+  height: 2000px;
+}
+
+iframe {
+  margin: 0;
+  padding: 0;
+  z-index: 2;
+  width: 100%;
+}
+
+.form-body {
+  position: absolute;
+  top: 0;
+  z-index: 5;
+  height: 100vh;
+  width: 100vw;
+  background-color: rgba(0, 0, 0, 0.623);
+  visibility: hidden;
+}
+
+form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.form {
+  background-color: white;
+  padding: 30px 0 25px 0;
+  border-radius: 4px;
+  box-shadow: 1px 1px 3x 5px rgb(165, 165, 165);
+  height: 50%;
+  width: 25%;
+  margin: 100px auto 0 auto;
+  border: 1px solid rgb(158, 158, 158);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.form input {
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  padding: 10px 5px 10px 8px;
+  border: 1px solid rgb(168, 168, 168);
+  border-radius: 3px;
+  margin-top: 15px;
+  transition-property: all;
+  transition-duration: 100ms;
+}
+
+#a {
+  margin-top: 20px;
+  font-weight: 500;
+  font-size: 20px;
+}
+
+#b {
+  color: #202124;
+  font-size: 16px;
+  margin-top: 10px;
+}
+
+#forgot {
+  font-family: "Roboto", sans-serif;
+  width: 80%;
+  margin-top: 5px;
+  color: #1a73e8;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+#guest {
+  font-size: 14px;
+  width: 80%;
+  margin-top: 20px;
+  color: #5f6368;
+}
+
+#learn {
+  cursor: pointer;
+  font-family: "Roboto", sans-serif;
+  font-size: 12px;
+  width: 80%;
+  color: #1a73e8;
+  font-weight: 500;
+}
+
+#btn {
+  margin-top: 20px;
+  border: none;
+  color: white;
+  background-color: #1a73e8;
+  padding: 8px 10px 8px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
